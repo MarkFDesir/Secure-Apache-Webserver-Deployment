@@ -1,4 +1,5 @@
-# Apache Website Project
+# Secure Apache Webserver Deployment
+
 
 ### Overview
 In this project I deployed a secure Apache web server in a Docker container on an Ubuntu server to build skills in server setup, networking, and web development. The container used a bridged network and was configured to serve HTTPS traffic with a self-signed SSL certificate for local testing purposes until I registered my own domain for my website to be accessible on the web. I adjusted Apache settings, enabled key modules, and added HTTP security headers to harden the server. pfSense firewall rules were configured to allow proper traffic flow after resolving initial outbound blocking issues. The website, built with HTML, CSS, and JavaScript in VS Code, was deployed using docker. This project improved my hands-on experience with Docker, Apache web server, pfSense firewalls, and secure web deployment. If you want to learn more check out the projects page on my website.
